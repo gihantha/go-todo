@@ -6,6 +6,8 @@ func main() {
 	var taskOne = "Buy groceries"
 	var taskTwo = "Clean the house"
 	reward := "Reward yourself with a treat after completing tasks!"
+
+	var taskItems = []string{"Watch a movie", "Read a book", "Go for a walk"}
 	
 	fmt.Println("Welcome to our Todolist App!")
 
@@ -29,6 +31,8 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("Thank you for using our Todolist App!")
+
+	fmt.Println()
 
 	
 }
